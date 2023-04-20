@@ -127,8 +127,8 @@ form h4 {
 }
 .form-input {
   border-radius: 0;
-  border-top-left-radius: var(--borderRadius);
-  border-bottom-left-radius: var(--borderRadius);
+  border-top-left-radius: 2px;
+  border-bottom-left-radius: 2px;
 }
 .form-control .btn {
   border-radius: 0;
@@ -159,4 +159,8 @@ form h4 {
 
 .Toastify__toast {
   text-transform: capitalize;
+}
+
+.input{
+  padding: 2px
 }
